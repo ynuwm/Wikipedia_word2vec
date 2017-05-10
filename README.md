@@ -9,4 +9,4 @@
 ## 中文
 ### python wiki_xml_to_text.py zhwiki-latest-pages-articles.xml.bz2 wiki.zh.text
 ### opencc -i wiki.zh.text -o wiki.zh.text.jian -c zht2zhs.ini
-### python train_w2_model.py wiki.zh.text.jian.seg wiki.zh.text.model wiki.zh.text.vector
+### python train_w2v_model.py wiki.zh.text.jian.seg wiki.zh.text.model wiki.zh.text.vector
